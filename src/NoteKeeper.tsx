@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Fab, Modal, Box, TextField, Button } from '@mui/material';
 import addNote from './assets/plus.png'
 import plus from './assets/plus-icon.png'
-import '../src/index.css'
+import '../src/NoteKeeper.css'
 import ToggleButton from '../src/ToggleButton'
 
 const NoteKeeper: React.FC = () => {
