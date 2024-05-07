@@ -3,6 +3,7 @@ import { Fab, Modal, Box, TextField, Button } from '@mui/material';
 import addNote from './assets/plus.png'
 import plus from './assets/plus-icon.png'
 import '../src/index.css'
+import ToggleButton from '../src/ToggleButton'
 
 const NoteKeeper: React.FC = () => {
   const [open, setOpen] = useState(false);
@@ -47,6 +48,7 @@ const NoteKeeper: React.FC = () => {
             width: '100%',
           }}
         >
+          <ToggleButton />
           <TextField
             id="note"
             label="Enter your note"
