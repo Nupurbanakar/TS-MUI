@@ -34,20 +34,7 @@ const NoteKeeper: React.FC = () => {
         <img src={addNote} alt='add-note' className='img'></img>
       </Fab>
       <Modal open={open} onClose={handleClose}>
-        <Box
-          sx={{
-            position: 'absolute',
-            top: '50%',
-            left: '50%',
-            transform: 'translate(-50%, -50%)',
-            bgcolor: '#ffffff',
-            borderRadius: '10px',
-            boxShadow: 24,
-            p: 4,
-            maxWidth: 600,
-            width: '100%',
-          }}
-        >
+        <Box className='modal-box'>
           <ToggleButton />
           <TextField
             id="note"
@@ -62,7 +49,7 @@ const NoteKeeper: React.FC = () => {
           />
           <Button variant="contained" onClick={handleSaveNote} className='save-btn'>
           <img src={plus} alt='add-note' className='plus'></img>
-          <span style={{ flex: 1 }} ><strong>Save</strong></span>
+          <span className='save-text'>Save</span>
           </Button>
         </Box>
       </Modal>
