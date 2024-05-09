@@ -1,42 +1,53 @@
 .save-btn {
-    margin-left: 32% !important;
-    margin-top: 2% !important;
-    border-radius: 30px !important;
-    max-width: 30% !important;
-  }
+  margin-left: 32% !important;
+  margin-top: 2% !important;
+  border-radius: 30px !important;
+  max-width: 30% !important;
+}
 
 .plus {
-    width:15%;
-    height:15%;
-  }
+  width:15%;
+  height:15%;
+}
 
 .textbox{
-    margin-top: 2% !important;
-  }
- 
+  margin-top: 2% !important;
+}
+
 .img {
-    width:50%;
-    height:50%;
-  }
+  width:60%;
+  height:60%;
+}
 
 .add-icon {
-    margin-left: 48%;
-    margin-top: 5%;
-  }
+  margin-left: 48%;
+  margin-top: 5%;
+}
 
 .modal-box{
-    position: absolute;
-    margin-top: 35%;
-    margin-left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #ffffff;
-    border-radius: 10px;
-    max-width: 50%;
-    width:100%;
-    padding: 1.5%;
-  }
+  position: absolute;
+  margin-top: 35%;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  border-radius: 10px;
+  max-width: 50%;
+  width:100%;
+  padding: 1.5%;
+}
+
+.note-card{
+  margin-top: 10%;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  border-radius: 10px;
+  max-width: 50%;
+  width:100%;
+  padding: 1.5%;
+}
 
 .save-text {
-    flex: 1;
-    font-weight: bold;
+  flex: 1;
+  font-weight: bold;
 }  
